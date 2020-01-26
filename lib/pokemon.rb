@@ -9,10 +9,15 @@ class Pokemon
     @type = type
     
     @@all << self
-    
   end 
   
-  def self.save
+  def save
     @@all << self
+  end
+  
+  def self.find 
+    @@all.detect()
+  end 
+  
   
 end
