@@ -16,6 +16,7 @@ class Pokemon
   end
   
   def self.find(name, type, db)
+    var = 
     db.
   end 
   
