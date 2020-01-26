@@ -16,7 +16,7 @@ class Pokemon
   end
   
   def self.find(name, type, db)
-    var = db.execute(SELECT * )
+    var = db.execute(SELECT * FROM pokemon WHERE )
     db.
   end 
   
