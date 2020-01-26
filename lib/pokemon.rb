@@ -17,7 +17,7 @@ class Pokemon
   
   def self.find(number, db)
     var = db.execute(SELECT * FROM pokemon WHERE id=?", number)
-    db.
+    Pokemon.new
   end 
   
   
